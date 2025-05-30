@@ -18,7 +18,6 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token']
 }));
-app.use(helmet());
 
 app.use(morgan('dev'));
 
