@@ -26,7 +26,6 @@ const swaggerOptions = {
           type: 'apiKey',
           in: 'header',
           name: 'Authorization',
-          description: 'Enter your JWT token directly (without any prefix)'
         },
       },
     },
